@@ -1,8 +1,14 @@
 import React from "react";
+import "../static/Header.css"
+
 
 export default function Header()
 {
+  const logo = "/engjobhu_icon.jpg";
   return(
-    <h1>haeder</h1>
+    
+    <nav>
+      <img src={logo} alt="logo"></img>
+    </nav>
   )
 }

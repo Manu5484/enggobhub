@@ -13,6 +13,7 @@
     width: 90px;
     height: 90px;
     padding:1px 0px 1px 3px;
+    cursor: pointer;
 }
 
 .InputContainer {
@@ -53,6 +54,8 @@
   }
   .search-btn:hover{
     background-color: lightgray;
+    transition: ease-in;
+    transition-delay: 0.4s;
   }
   
   

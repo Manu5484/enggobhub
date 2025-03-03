@@ -28,9 +28,9 @@
     cursor: pointer;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
     flex: 1;
-
   }
   
+
   .input {
     width: 98%;
     height: 40px;
@@ -44,6 +44,17 @@
     color: rgb(19, 19, 19);
     font-size: 13.4px;
   }
+  .search-btn{
+    margin-left: -35px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  .search-btn:hover{
+    background-color: lightgray;
+  }
+  
   
 .btncontainer{
     width: 40%;

@@ -12,7 +12,9 @@ export default function Header()
 
       <div class="InputContainer">
       <input placeholder="Search.." id="input" class="input" name="text" type="text"/>
+      <button className="search-btn">🔍</button>
       </div>
+      
       <div className="btncontainer">
       <button class="btn">Home</button>
       <button class="btn">About</button>

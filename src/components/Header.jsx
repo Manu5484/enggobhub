@@ -4,7 +4,7 @@ import "../static/Header.css"
 
 export default function Header()
 {
-  // const logo = "/engjobhu_icon.jpg";
+  const logo = "/engjobhu_icon.jpg";
   return(
     
     <nav className="headernav">
@@ -13,12 +13,14 @@ export default function Header()
       <div class="InputContainer">
       <input placeholder="Search.." id="input" class="input" name="text" type="text"/>
       </div>
-
+      <div className="btncontainer">
       <button class="btn">Home</button>
       <button class="btn">About</button>
       <button class="btn">Contact</button>
       <button class="btn">Blog</button>
       <button class="btn">Register</button>
+      </div>
+      
       </nav>
   )
 }

@@ -1,15 +1,17 @@
 
 .moto{
   position:absolute;
-  left: 30%;
-  top: 5%;
+  left: 50%;
+  top: 10%;
   z-index: 100;
   font-size: 50px;
   font-weight: 700;
+  transform: translate(-50%,-50%);
+  text-wrap: nowrap;
   /* color:rgb(4, 33, 107); */
   background: linear-gradient(90deg, rgba(200, 255, 97, 1), rgba(255, 250, 112, 1), rgba(225, 255, 0, 1));
--webkit-background: linear-gradient(90deg, rgba(200, 255, 97, 1), rgba(255, 250, 112, 1), rgba(225, 255, 0, 1));
--moz-background: linear-gradient(90deg, rgba(200, 255, 97, 1), rgba(255, 250, 112, 1), rgba(225, 255, 0, 1));
+  -webkit-background: linear-gradient(90deg, rgba(200, 255, 97, 1), rgba(255, 250, 112, 1), rgba(225, 255, 0, 1));
+  -moz-background: linear-gradient(90deg, rgba(200, 255, 97, 1), rgba(255, 250, 112, 1), rgba(225, 255, 0, 1));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     color: transparent;

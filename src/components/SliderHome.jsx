@@ -40,9 +40,9 @@ const leftArrowStyles = {
 
 const sliderStyles = {
   position: "relative",
-  height: "100%",
+  height: "90%",
+  width: "85%",
   overflow: "hidden",
-  margin:"90px 0px 0px 0px",
 };
 
 const dotsContainerStyles = {

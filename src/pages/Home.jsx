@@ -13,7 +13,10 @@ export default function Home()
   const containerStyles = {
     width: "100%",
     height: "850px",
-    padding: "45px 170px 45px 170px",
+    margin:"100px 0px 0px 0px",
+    display:"flex",
+    justifyContent:"center",
+    alignItems:"center",
   };
 
   return (

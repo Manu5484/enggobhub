@@ -1,5 +1,6 @@
 import React from "react"
 import SliderHome from "../components/SliderHome"
+import CardSlider from "../components/CardSlider";
 
 export default function Home()
 {
@@ -20,9 +21,11 @@ export default function Home()
   };
 
   return (
-    <div style={containerStyles}>
-      <SliderHome slides={slides} />
-    </div>
-
+    <>
+      <div style={containerStyles}>
+        <SliderHome slides={slides} />
+      </div>
+      <CardSlider/>
+    </>
   )
 }

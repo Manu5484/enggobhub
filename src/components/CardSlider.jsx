@@ -19,7 +19,7 @@ export default function CardSlider()
         <h1>Top Companies Hiring</h1>
         {/* <div class="Cardgrid"> */}
         <Slider {...settings}>
-        <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
+        <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(255, 254, 216, 0.2)">
           <div class="card">
             <img src="https://storage.googleapis.com/a1aa/image/JU3J8PVk4IEju1qxuvn4JJYsGbCn4_444HzpGpaR3xQ.jpg" alt="Google logo"></img>
             <h2>Company 1</h2>
@@ -28,7 +28,7 @@ export default function CardSlider()
             <button className="button2">View Jobs</button>
           </div>
         </SpotlightCard>
-        <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
+        <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(255, 254, 216, 0.2)">
             <div class="card">
                 <img src="https://storage.googleapis.com/a1aa/image/a3sVGZQxUyhCAdYbDgj3W1eZromC-cmRQ28Gi4fXMNQ.jpg" alt="Microsoft logo"></img>
                 <h2>Company 2</h2>
@@ -37,7 +37,7 @@ export default function CardSlider()
                 <button  className="button2">View Jobs</button>
             </div>
         </SpotlightCard>
-        <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
+        <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(255, 254, 216, 0.2)">
             <div class="card">
                 <img src="https://storage.googleapis.com/a1aa/image/Hi0Q62Lh1T2lEkuo8hN2m2UU2NiIqpX4v7HvxlkOuXI.jpg" alt="Goldman Sachs logo"></img>
                 <h2>Company 2</h2>
@@ -46,7 +46,7 @@ export default function CardSlider()
                 <button className="button2">View Jobs</button>
             </div>
         </SpotlightCard>
-        <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
+        <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(255, 254, 216, 0.2)">
             <div class="card">
                 <img src="https://storage.googleapis.com/a1aa/image/stJTm5GxVrxpWvqKni9E2Im2POpIM3lvhJLVHfgWMU0.jpg" alt="Amazon logo"></img>
                 <h2>Company 2</h2>
@@ -62,7 +62,7 @@ export default function CardSlider()
 }
 
 
-const SpotlightCard = ({ children, className = "", spotlightColor = "rgba(255, 255, 255, 0.25)" }) => {
+const SpotlightCard = ({ children, className = "", spotlightColor = "rgba(255, 254, 216, 0.2)" }) => {
   const divRef = useRef(null);
 
   const handleMouseMove = (e) => {

@@ -20,7 +20,7 @@ export default function Header()
         <Link to={'/'}>
           <button class="btn">Home</button>
         </Link>
-        <Link to="#">
+        <Link to="/about">
           <button class="btn">About</button>
         </Link>
         <Link to={"#"}>

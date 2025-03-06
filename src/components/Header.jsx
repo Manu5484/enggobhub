@@ -10,7 +10,7 @@ export default function Header()
     
     <nav className="headernav">
       <img src={logo} alt="logo" className="logoimage"></img>
-
+      <span className="logoname">ENGJOBHUB</span>
       <div class="InputContainer">
         <input placeholder="Search.." id="input" class="input" name="text" type="text"/>
         <button className="search-btn"><img src={searchbutton} alt="search"></img></button>

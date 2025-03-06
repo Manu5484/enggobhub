@@ -114,3 +114,13 @@
   .btn:hover::before {
     width: 100%;
   }
+  .logoname {
+    font-weight: 600;
+    font-size: 25px;
+    margin-left: -45px;
+    background: linear-gradient(45deg, #ff6b6b, #556270);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block; /* Ensures proper clipping */
+}

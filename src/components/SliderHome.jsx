@@ -118,7 +118,7 @@ const SliderHome = ({ slides }) => {
             style={dotStyle}
             onClick={() => goToSlide(slideIndex)}
           >
-            ●
+            
           </div>
         ))}
       </div>

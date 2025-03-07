@@ -1,9 +1,9 @@
-import React,{useState} from "react";
+import React from "react";
 import "../static/HomePageForm.css"
 
 export default function HomePageForm() {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [password, setPassword] = useState("");
   
   return (
     <div className="StandOutContainerdiv">

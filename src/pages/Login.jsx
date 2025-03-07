@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "../static/Login.css"
 import attherate from "../static/images/attherate.png"
 import lock from "../static/images/lock.png"
@@ -6,6 +7,7 @@ import google from "../static/images/google.png"
 import apple from "../static/images/apple1.png"
 
 export default function Login(){
+  const navigate = useNavigate();
     return(
 <div className="complete-container">       
 <form className="formlogin">
@@ -32,7 +34,8 @@ export default function Login(){
       <span className="span">Forgot password?</span>
     </div>
     <button className="button-submit">Sign In</button>
-    <p className="p">Don't have an account? <span className="span">Sign Up</span>
+    <p className="p">Don't have an account? <span className="span"  onClick={() => navigate("/signup")} style={{ cursor: "pointer", color: "blue" }}>
+      Sign Up</span>
 
     </p><p className="p line">Or With</p>
 

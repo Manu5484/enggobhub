@@ -82,7 +82,7 @@
     margin-right: 50px;
 }
 
-.btn {
+.btnnav {
     font-size: 19px;
     font-weight: 500;
     background: transparent;
@@ -95,7 +95,7 @@
     cursor: pointer;
   }
   
-  .btn::before {
+  .btnnav::before {
     content: "";
     position: absolute;
     left: 0;
@@ -106,12 +106,12 @@
     transition: 0.5s ease;
   }
   
-  .btn:hover {
+  .btnnav:hover {
     color: blue;
     transition-delay: 0.5s;
   }
   
-  .btn:hover::before {
+  .btnnav:hover::before {
     width: 100%;
   }
   .logoname {

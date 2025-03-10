@@ -18,19 +18,19 @@ export default function Header()
       
       <div className="btncontainer">
         <Link to={'/'}>
-          <button class="btn">Home</button>
+          <button class="btnnav">Home</button>
         </Link>
-        <Link to="/about">
-          <button class="btn">About</button>
+        <Link to={"/about"}>
+          <button class="btnnav">About</button>
         </Link>
         <Link to={"#"}>
-          <button class="btn">Contact</button>
+          <button class="btnnav">Contact</button>
         </Link>
         <Link to={"/blog"}>
-          <button class="btn">Blog</button>
+          <button class="btnnav">Blog</button>
         </Link>
-        <Link to={"#"}>
-          <button class="btn">Register</button>
+        <Link to={"/login"}>
+          <button class="btnnav">Register</button>
         </Link>
       </div>
       

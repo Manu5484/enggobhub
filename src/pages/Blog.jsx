@@ -1,11 +1,11 @@
 import React from "react";
+import ServiceBlog from "../components/ServiceBlog";
 
 export default function Blog()
 {
   return (
     <>
-     <h1>blog page</h1>
-     <h1>blog page</h1>
+     <ServiceBlog/>
     </>
   )
 }

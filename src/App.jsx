@@ -4,6 +4,7 @@ import Blog from './pages/Blog';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Login1 from './pages/Login1';
+import Contact from './pages/Contact';
 import {HashRouter as Router, Routes, Route,useLocation} from 'react-router-dom'
 import './App.css';
 
@@ -18,6 +19,7 @@ function Layout() {
               <Route path="/" element={<Home />} />
               <Route path="/blog" element={<Blog/>}/>
               <Route path="/login" element={<Login1 />} />
+              <Route path="/contact" element={<Contact/>}/>
           </Routes>
 
           {!hideFooter && <Footer />}

@@ -23,7 +23,7 @@ export default function Header()
         <Link to="#">
           <button class="btnnav">About</button>
         </Link>
-        <Link to={"#"}>
+        <Link to={"/contact"}>
           <button class="btnnav">Contact</button>
         </Link>
         <Link to={"/blog"}>

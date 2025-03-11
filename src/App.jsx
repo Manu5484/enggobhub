@@ -1,12 +1,14 @@
 import React from 'react';
 import Home from './pages/Home';
 import Blog from './pages/Blog';
-import Header from './components/Header';
+import Header from './components/Header
 import Footer from './components/Footer';
 import Login1 from './pages/Login1';
 import Contact from './pages/Contact';
 import {HashRouter as Router, Routes, Route,useLocation} from 'react-router-dom'
 import './App.css';
+import AboutPage from './pages/About';
+import Footer from './components/Footer';
 
 
 function Layout() {
@@ -20,6 +22,7 @@ function Layout() {
               <Route path="/blog" element={<Blog/>}/>
               <Route path="/login" element={<Login1 />} />
               <Route path="/contact" element={<Contact/>}/>
+              <Route path="/about" element={<AboutPage/>}/>
           </Routes>
 
           {!hideFooter && <Footer />}
@@ -43,6 +46,7 @@ function Layout() {
 
 export default function App() {
   return (
+
       <Router>
           <Layout />
       </Router>

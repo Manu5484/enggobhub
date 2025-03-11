@@ -20,7 +20,7 @@ export default function Header()
         <Link to={'/'}>
           <button class="btnnav">Home</button>
         </Link>
-        <Link to="#">
+        <Link to={"/about"}>
           <button class="btnnav">About</button>
         </Link>
         <Link to={"/contact"}>

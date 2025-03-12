@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .page-container {
-    background-image: url("C:\Users\nagra\Desktop\Projects\engjobhub\enggobhub\public\contactusbg.webp"); 
+    background-image: url("../../public/contactusbg.webp"); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

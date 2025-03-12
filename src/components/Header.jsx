@@ -4,7 +4,9 @@ import searchbutton from "../static/images/search_button.png";
 import { Link } from "react-router-dom";
 
 export default function Header() {
-  const [showDropdown, setShowDropdown] = useState(false);
+  const [showOpportunities, setShowOpportunities] = useState(false);
+  const [showServices, setShowServices] = useState(false);
+
   const logo = "/engjobhu_icon.jpg";
 
   return (
@@ -21,11 +23,13 @@ export default function Header() {
         <Link to={'/'}>
           <button className="btnnav">Home</button>
         </Link>
+
+        {/* Opportunities Dropdown */}
         <div className="dropdown-container"
-          onMouseEnter={() => setShowDropdown(true)}
-          onMouseLeave={() => setShowDropdown(false)}>
+          onMouseEnter={() => setShowOpportunities(true)}
+          onMouseLeave={() => setShowOpportunities(false)}>
           <button className="btnnav">Opportunities</button>
-          {showDropdown && (
+          {showOpportunities && (
             <div className="dropdown-menu">
               <div className="dropdown-left">
                 <Link to="/internships">Internships</Link>
@@ -42,9 +46,30 @@ export default function Header() {
             </div>
           )}
         </div>
-        <Link to={"/contact"}>
+
+        {/* Services Dropdown */}
+        <div className="dropdown-container"
+          onMouseEnter={() => setShowServices(true)}
+          onMouseLeave={() => setShowServices(false)}>
           <button className="btnnav">Services</button>
-        </Link>
+          {showServices && (
+            <div className="dropdown-menu">
+              <div className="dropdown-left">
+                <Link to="/internships">Courses</Link>
+                <hr />
+                <Link to="/internships-bangalore">Free Courses</Link>
+                <Link to="/internships-remote">Paid Courses</Link>
+              </div>
+              <div className="dropdown-right">
+                <Link to="/jobs">Resume</Link>
+                <hr />
+                <Link to="/jobs-bangalore">AI Resume Builder</Link>
+                <Link to="/jobs-remote">Resume Template</Link>
+              </div>
+            </div>
+          )}
+        </div>
+
         <Link to={"/blog"}>
           <button className="btnnav">Blog</button>
         </Link>

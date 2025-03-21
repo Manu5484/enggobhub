@@ -7,7 +7,7 @@ export default function Footer()
         <footer>
         <div class="row">
             <div class="col">
-                <img src={logo} class="logo"></img>
+                <img src={logo} class="logo" alt="logo"></img>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam doloribus ab expedita, 
                     possimus culpa aliquid repudiandae facilis reiciendis accusamus alias repellat id quaerat voluptates iste. Eum exercitationem enim animi modi.
                 </p>

@@ -20,7 +20,7 @@ const FiltersInternship = () => {
     <div className="filter-box">
       <div className="filter-header">Filters</div>
 
-      <label className="input-label">Profile</label>
+      <label className="input-label">Profile
       <input
         className="marketing"
         type="text"
@@ -28,14 +28,16 @@ const FiltersInternship = () => {
         value={profile}
         onChange={(e) => setProfile(e.target.value)}
       />
+      </label>
 
-      <label className="input-label">Location</label>
+      <label className="input-label">Location
       <input
         type="text"
         placeholder="e.g. Delhi"
         value={location}
         onChange={(e) => setLocation(e.target.value)}
       />
+      </label>
 
       <label className="checkbox-label">
         <input

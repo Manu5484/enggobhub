@@ -4,7 +4,10 @@ import "../static/Courses.css"
 const courses = [
   { image: "web-dev.png", title: "Web Development", duration: "8 weeks", rating: "4.1", learners: "121,153" },
   { image: "python.png", title: "Programming with Python", duration: "6 weeks", rating: "4.2", learners: "87,360" },
-  { image: "digital-marketing.png", title: "Digital Marketing", duration: "8 weeks", rating: "4.5", learners: "73,494" },
+  { image: "web-dev.png", title: "Web Development", duration: "8 weeks", rating: "4.1", learners: "121,153" },
+  { image: "python.png", title: "Programming with Python", duration: "6 weeks", rating: "4.2", learners: "87,360" },
+  { image: "python.png", title: "Programming with Python", duration: "6 weeks", rating: "4.2", learners: "87,360" },
+  
   { image: "python.png", title: "Programming with Python", duration: "6 weeks", rating: "4.2", learners: "87,360" },
   { image: "digital-marketing.png", title: "Digital Marketing", duration: "8 weeks", rating: "4.5", learners: "73,494" }
 ];

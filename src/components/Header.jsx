@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../static/Header.css";
 import searchbutton from "../static/images/search_button.png";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function Header() {
   const [showOpportunities, setShowOpportunities] = useState(false);
@@ -20,9 +20,9 @@ export default function Header() {
         </button>
       </div>
       <div className="btncontainer">
-        <Link to={'/'}>
+        <NavLink to={'/'}>
           <button className="btnnav">Home</button>
-        </Link>
+        </NavLink>
 
         {/* Opportunities Dropdown */}
         <div className="dropdown-container"
@@ -32,16 +32,16 @@ export default function Header() {
           {showOpportunities && (
             <div className="dropdown-menu">
               <div className="dropdown-left">
-                <Link to="/internships">Internships</Link>
+                <NavLink to="/internship">Internships</NavLink>
                 <hr />
-                <Link to="/internships-bangalore">Interns In Bangalore</Link>
-                <Link to="/internships-remote">Work From Home</Link>
+                <NavLink to="/internships-bangalore">Interns In Bangalore</NavLink>
+                <NavLink to="/internships-remote">Work From Home</NavLink>
               </div>
               <div className="dropdown-right">
-                <Link to="/jobs">Jobs</Link>
+                <NavLink to="/jobs">Jobs</NavLink>
                 <hr />
-                <Link to="/jobs-bangalore">Jobs In Bangalore</Link>
-                <Link to="/jobs-remote">Work From Home</Link>
+                <NavLink to="/jobs-bangalore">Jobs In Bangalore</NavLink>
+                <NavLink to="/jobs-remote">Work From Home</NavLink>
               </div>
             </div>
           )}
@@ -55,27 +55,27 @@ export default function Header() {
           {showServices && (
             <div className="dropdown-menu">
               <div className="dropdown-left">
-                <Link to="/internships">Courses</Link>
+                <NavLink to="/internship">Courses</NavLink>
                 <hr />
-                <Link to="/internships-bangalore">Free Courses</Link>
-                <Link to="/internships-remote">Paid Courses</Link>
+                <NavLink to="/internships-bangalore">Free Courses</NavLink>
+                <NavLink to="/internships-remote">Paid Courses</NavLink>
               </div>
               <div className="dropdown-right">
-                <Link to="/jobs">Resume</Link>
+                <NavLink to="/jobs">Resume</NavLink>
                 <hr />
-                <Link to="/jobs-bangalore">AI Resume Builder</Link>
-                <Link to="/jobs-remote">Resume Template</Link>
+                <NavLink to="/jobs-bangalore">AI Resume Builder</NavLink>
+                <NavLink to="/jobs-remote">Resume Template</NavLink>
               </div>
             </div>
           )}
         </div>
 
-        <Link to={"/blog"}>
+        <NavLink to={"/blog"}>
           <button className="btnnav">Blog</button>
-        </Link>
-        <Link to={"/login"}>
+        </NavLink>
+        <NavLink to={"/login"}>
           <button className="btnnav">Register</button>
-        </Link>
+        </NavLink>
       </div>
     </nav>
   );

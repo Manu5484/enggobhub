@@ -4,7 +4,7 @@
   display: flex;
   gap: 10px;
   width: 100%;
-  background-color: #00c896;
+
 }
 
 /* Sidebar */
@@ -14,7 +14,7 @@
   padding: 20px;
   /* height: 650px; */
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-  background-color: antiquewhite;
+  background-color: #e2e2e2;
 }
 
 .category-sidebar h2 {
@@ -44,20 +44,22 @@
 /* Course section */
 .courses {
   flex: 1;
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(340px,1fr));
   gap: 35px;
   padding: 20px;
   overflow-y: auto;
-  height: 700px;
-  background-color: red;
+  height: 680px;
+
 }
 .courses::-webkit-scrollbar{
   display: none;
 }
 
 .course-card {
-  width: 340px;
+  /* width: 340px; */
   height: 300px;
   background: white;
   padding: 15px;
@@ -86,7 +88,7 @@
 
 .new::before {
   content: "Newly Updated";
-  background: #00c896;
+  background: #e2e2e2;
   color: white;
   padding: 5px;
   font-size: 12px;
@@ -95,13 +97,12 @@
 }
 /* Right sidebar (Categories + Educator Slider) */
 .educator-rightside {
-  width: 350px;
-  background: white;
+
   padding: 20px;
-  height: 650px;
+  height: 680px;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
   display: flex;
-  flex-direction: column;
+  gap: 20px;  flex-direction: column;
   overflow: hidden;
 }
 
@@ -125,12 +126,12 @@
 /* Smaller Square Educator Cards */
 .educator-card {
   width: 90%; /* Reduced width to prevent horizontal scrolling */
-  max-width: 280px; /* Prevents cards from getting too big */
+  max-width: 300px; /* Prevents cards from getting too big */
   background: #f9f9f9;
   padding: 15px;
   border-radius: 12px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
-  margin: 10px auto; /* Center cards */
+  margin: 20px 5px; /* Center cards */
   transition: transform 0.3s, box-shadow 0.3s;
   text-align: center;
   display: flex;

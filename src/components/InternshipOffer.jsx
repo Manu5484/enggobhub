@@ -1,5 +1,6 @@
 import React from "react";
 import "../static/Internship.css"
+import companyOffer from "../static/images/company-logo-1.jpg"
 
 const jobListings = [
   {
@@ -91,7 +92,7 @@ const InternshipOffer = () => {
               </p>
               <p className="meta">⏳ {job.posted} • {job.type}</p>
             </div>
-            <img src={job.logo} alt="Company Logo" className="company-logo" />
+            <img src={companyOffer} alt="Company Logo" className="company-logo" />
           </div>
         ))}
       </div>

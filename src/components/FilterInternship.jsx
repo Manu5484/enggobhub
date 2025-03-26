@@ -6,6 +6,7 @@ const FiltersInternship = () => {
   const [location, setLocation] = useState("");
   const [workFromHome, setWorkFromHome] = useState(false);
   const [partTime, setPartTime] = useState(false);
+  const [activeHire, setActiveHire] = useState(false);
   const [stipend, setStipend] = useState(0);
 
   const clearFilters = () => {
@@ -50,11 +51,22 @@ const FiltersInternship = () => {
 
       <label className="checkbox-label">
         <input
+          name="jobtime"
           type="checkbox"
           checked={partTime}
           onChange={() => setPartTime(!partTime)}
         />
         Part-time
+      </label>
+
+      <label className="checkbox-label">
+        <input
+          name="jobtime"
+          type="checkbox"
+          checked={activeHire}
+          onChange={() => setActiveHire(!activeHire)}
+        />
+        Actively hiring
       </label>
 
       <div className="slider-container">

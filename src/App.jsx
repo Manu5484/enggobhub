@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 import Courses from './pages/Courses';
 import Internship from './pages/Internship';
 import AboutPage from './pages/About';
+import JobDescription from './pages/JobDescription';
 import {HashRouter as Router, Routes, Route,useLocation} from 'react-router-dom'
 import './App.css';
 

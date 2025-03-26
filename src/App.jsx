@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Login1 from './pages/Login1';
 import Contact from './pages/Contact';
+import Courses from './pages/Courses';
 import Internship from './pages/Internship';
 import AboutPage from './pages/About';
 import {HashRouter as Router, Routes, Route,useLocation} from 'react-router-dom'
@@ -23,7 +24,6 @@ function Layout() {
               <Route path="/login" element={<Login1 />} />
               <Route path="/contact" element={<Contact/>}/>
               <Route path='/internship' element={<Internship/>} />
-              <Route path='/about' element={<AboutPage/>} />
           </Routes>
           {!hideFooter && <Footer />}
       </div>

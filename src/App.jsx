@@ -24,6 +24,12 @@ function Layout() {
               <Route path="/login" element={<Login1 />} />
               <Route path="/contact" element={<Contact/>}/>
               <Route path='/internship' element={<Internship/>} />
+              <Route path='/about' element={<AboutPage/>} />
+              <Route path='/courses' element={<Courses/>}/>
+              <Route path='/jobdescription' element={<JobDescription/>}/>
+              <Route path='/jobs' element={<Internship/>} />
+              <Route path='/jobdescription' element={<JobDescription/>}/>
+              <Route path='/courses' element={<Courses/>}/>
           </Routes>
           {!hideFooter && <Footer />}
       </div>

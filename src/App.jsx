@@ -9,6 +9,7 @@ import Courses from './pages/Courses';
 import Internship from './pages/Internship';
 import AboutPage from './pages/About';
 import JobDescription from './pages/JobDescription';
+import ResumeTemplates from './pages/ResumeTemplate';
 import {HashRouter as Router, Routes, Route,useLocation} from 'react-router-dom'
 import './App.css';
 
@@ -31,6 +32,7 @@ function Layout() {
               <Route path='/jobs' element={<Internship/>} />
               <Route path='/jobdescription' element={<JobDescription/>}/>
               <Route path='/courses' element={<Courses/>}/>
+              <Route path='/resumetemplates' element={<ResumeTemplates/>}/>
           </Routes>
           {!hideFooter && <Footer />}
       </div>

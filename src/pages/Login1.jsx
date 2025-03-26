@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import "../static/Login1.css"
 
 const Login1 = () => {
-  const [isActive, setIsActive] = useState(false);
+  const [isLoginActive, setIsLoginActive] = useState(false);
 
   return (
-    <div className="complete">
-    <div className={`container ${isActive ? "active" : ""}`}>
+    <div className="login-complete">
+    <div className={`login-container ${isLoginActive ? "login-active" : ""}`}>
       <div className="form-container sign-up">
         <form>
           <h1>Create Account</h1>
@@ -46,12 +46,12 @@ const Login1 = () => {
           <div className="toggle-panel toggle-left">
             <h1>"Opportunities<br></br>Await Engineers!"</h1>
             <p>Sign in With ID & Password</p>
-            <button className="hidden" onClick={() => setIsActive(false)}>Sign In</button>
+            <button className="login-hidden" onClick={() => setIsLoginActive(false)}>Sign In</button>
           </div>
           <div className="toggle-panel toggle-right">
             <h1>"Welcome Engineers!"</h1>
             <p>Join the Future of Engineering Careers!</p>
-            <button className="hidden" onClick={() => setIsActive(true)}>Sign Up</button>
+            <button className="login-hidden" onClick={() => setIsLoginActive(true)}>Sign Up</button>
           </div>
         </div>
       </div>

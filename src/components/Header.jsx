@@ -58,7 +58,7 @@ export default function Header() {
             {showServices && (
               <div className="dropdown-menu">
                 <div className="dropdown-left">
-                  <NavLink to="/internship">Courses</NavLink>
+                  <NavLink to="/courses">Courses</NavLink>
                   <hr className="hr" />
                   <NavLink to="/internships-bangalore">Free Courses</NavLink>
                   <NavLink to="/internships-remote">Paid Courses</NavLink>

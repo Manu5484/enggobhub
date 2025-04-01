@@ -1,10 +1,10 @@
 .BlogContainerdiv{
-  margin-top: 100px;
+  margin-top: 10px;
   box-sizing: border-box;
-  padding: 50px 150px;
+  padding: 40px 150px;
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 50px;
   background:linear-gradient(to right,rgb(16, 16, 16) 5%,rgb(14, 13, 13) 50%,rgb(14, 14, 14),rgb(27, 27, 27));
 }
 
@@ -58,12 +58,13 @@
 .BlogContainer .box {
   display: flex;
   justify-content: space-between;
+  gap: 50px;
   /* align-items: center; */
 }
 
 .box .blogdiv{
-  width: 600px;
-  height: 400px;
+  width: 500px;
+  height: 300px;
   align-self: center;
   z-index: 10;
 }
@@ -75,7 +76,7 @@
 }
 
 .BlogContainer .box .title {
-  font-size: 2.2rem;
+  font-size: 28px;
   font-weight: 500;
   letter-spacing: 0.1em;
 }
@@ -90,10 +91,11 @@
 }
 
 .BlogContainer .box .boxContent .content{
-  font-size: 23px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 1.5;
   margin-left: 20px;
+  word-spacing: 3px;
 }
 
 .BlogContainer .box div strong {

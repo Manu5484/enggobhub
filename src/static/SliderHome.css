@@ -2,7 +2,7 @@
   overflow: hidden;
   padding: 0px 100px 20px 100px;
   margin-bottom: 40px;
-  margin-top: 115px;
+  margin-top: 20px;
 }
 
 .slider-container{
@@ -10,7 +10,7 @@
 }
 
 .sliderimgdiv{
-  height: 800px;
+  height: 600px;
   /* border-radius: 20px; */
 }
 

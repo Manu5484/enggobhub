@@ -36,13 +36,13 @@ export default function Header() {
               <div className="dropdown-menu">
                 <div className="dropdown-left">
                   <NavLink to="/internship">Internships</NavLink>
-                  <hr />
+                  <hr className="hr" />
                   <NavLink to="/internships-bangalore">Interns In Bangalore</NavLink>
                   <NavLink to="/internships-remote">Work From Home</NavLink>
                 </div>
                 <div className="dropdown-right">
                   <NavLink to="/jobs">Jobs</NavLink>
-                  <hr />
+                  <hr className="hr" />
                   <NavLink to="/jobs-bangalore">Jobs In Bangalore</NavLink>
                   <NavLink to="/jobs-remote">Work From Home</NavLink>
                 </div>
@@ -59,13 +59,13 @@ export default function Header() {
               <div className="dropdown-menu">
                 <div className="dropdown-left">
                   <NavLink to="/internship">Courses</NavLink>
-                  <hr />
+                  <hr className="hr" />
                   <NavLink to="/internships-bangalore">Free Courses</NavLink>
                   <NavLink to="/internships-remote">Paid Courses</NavLink>
                 </div>
                 <div className="dropdown-right">
                   <NavLink to="/jobs">Resume</NavLink>
-                  <hr />
+                  <hr className="hr" />
                   <NavLink to="/jobs-bangalore">AI Resume Builder</NavLink>
                   <NavLink to="/resumetemplates">Resume Template</NavLink>
                 </div>

@@ -5,8 +5,6 @@ import blog2 from "../static/images/analytics_blog.jpg"
 import blog3 from "../static/images/corporate_blog.jpg"
 import blog4 from "../static/images/cybersecurity_blog.jpg"
 
-  
-
 
 export default function ServiceBlog()
 {

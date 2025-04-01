@@ -3,6 +3,8 @@
   /* width: 1560px; */
   height: 70px;
   margin: 0;
+  
+  
 }
 .headernav
 {
@@ -17,9 +19,9 @@
     justify-content: space-between;
     align-items: center;
     box-shadow: 2px 0px 10px hsla(0, 0%, 0%, 0.587);
-    background-color: white;
     z-index: 999;
     gap: 100px;
+    background-color:white;
 }
 
 .left-header{

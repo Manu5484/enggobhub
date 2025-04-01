@@ -13,7 +13,7 @@ function SliderHome() {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 650,
     slidesToShow: 1,
     slidesToScroll: 1
   };
@@ -23,7 +23,7 @@ function SliderHome() {
       if (sliderRef.current) {
         sliderRef.current.slickNext(); 
       }
-    }, 3000); 
+    }, 5000); 
 
     return () => clearInterval(interval); 
   }, []);

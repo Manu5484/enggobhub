@@ -1,8 +1,11 @@
 .CardSliderContainer {
   max-width: 100%;
   align-self: center;
-  padding: 10px 160px 30px 160px;
-  background-color: #c2c2c2;
+  padding: 10px 0px 30px 0px;
+  background-color: #EBEBEB;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  margin: 0px 160px;
 }
 h1 {
   text-align: center;

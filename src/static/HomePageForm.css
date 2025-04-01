@@ -1,15 +1,15 @@
 .StandOutContainerdiv{
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
-  margin: 50px 0px ;
+  margin: 50px 0px 0px 65px ;
 }
 
 .StandOutContainer {
   display: flex;
-  width: 800px;
+  width: 650px;
   height: 500px;
   max-width: 99%;
   align-items: center;

@@ -14,7 +14,7 @@
   margin-inline: auto;
   position: relative;
   height: 100px;
-  margin-top: 5rem;
+  margin-top: 4rem;
   overflow: hidden;
   mask-image: linear-gradient(
     to right,
@@ -32,8 +32,8 @@
 }
 
 .item {
-  width: 200px;
-  height: 100px;
+  width: 150px;
+  height: 60px;
   background-color: rgba(255, 0, 0, 0.408);
   border-radius: 6px;
   position: absolute;

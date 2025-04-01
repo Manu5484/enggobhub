@@ -5,12 +5,12 @@
     font-family: 'Poppins', sans-serif;
 }
 footer {
-    margin-top: 50px;
+    margin-top: 40px;
     width:100%;
     bottom:0;
     background: linear-gradient(to right,#00093c,#2d0b00);
     color: #fff;
-    padding: 100px 0 30px;
+    padding: 50px 0 10px;
     border-top-right-radius: 125px;
     font-size: 13px;
     line-height: 20px;

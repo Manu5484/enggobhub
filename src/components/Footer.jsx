@@ -4,6 +4,7 @@ export default function Footer()
 {
     const logo = "/engjobhu_icon.jpg";
     return(
+        
         <footer>
         <div class="row">
             <div class="col">

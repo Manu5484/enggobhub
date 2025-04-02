@@ -64,7 +64,7 @@ export default function Header() {
                   <NavLink to="/internships-remote">Paid Courses</NavLink>
                 </div>
                 <div className="dropdown-right">
-                  <NavLink to="/jobs">Resume</NavLink>
+                  <NavLink to="/resumetemplates">Resume</NavLink>
                   <hr className="hr" />
                   <NavLink to="/jobs-bangalore">AI Resume Builder</NavLink>
                   <NavLink to="/resumetemplates">Resume Template</NavLink>

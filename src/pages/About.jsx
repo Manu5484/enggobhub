@@ -39,7 +39,7 @@ export default function AboutPage() {
 
   return (
     <>
-      <div className='mt-24 pt-16 bg-slate-200 pb-16 flex justify-center text-5xl font-bold'>
+      <div className='mt-2 pt-16 bg-slate-200 pb-16 flex justify-center text-5xl font-bold'>
         About Us
       </div>
       <div className=' mt-10 grid grid-cols-6 gap-4'>
@@ -47,7 +47,7 @@ export default function AboutPage() {
           <div className='flex justify-center'>
           <button
             onClick={prevCard}
-            className="px-8 py-2 bg-white text-white rounded-full  transition w-24 h-24 " 
+            className="px-8 py-2 bg-transparent text-white rounded-full  transition w-24 h-24 " 
           >
            <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"></path></svg>
 
@@ -63,7 +63,7 @@ export default function AboutPage() {
             <div className='flex justify-center'>
             <button
               onClick={nextCard}
-              className="px-8 py-2 bg-white text-white rounded-full  transition w-24 h-24"
+              className="px-8 py-2 bg-transparent text-white rounded-full  transition w-24 h-24"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"></path></svg>
 

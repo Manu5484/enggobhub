@@ -2,7 +2,7 @@
   "name": "enggobhub",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Manu5484.github.io/enggobhub",
+  "homepage": "https://manu5484.github.io/enggobhub",
   "dependencies": {
     "@tabler/icons-react": "^3.31.0",
     "@testing-library/dom": "^10.4.0",

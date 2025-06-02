@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/enggobhub/static/css/main.7fa872db.css",
+    "main.js": "/enggobhub/static/js/main.191d1a82.js",
+    "static/js/453.ac90d953.chunk.js": "/enggobhub/static/js/453.ac90d953.chunk.js",
+    "static/media/cybersecurity_blog.jpg": "/enggobhub/static/media/cybersecurity_blog.400481d0bb3eb7d1f6db.jpg",
+    "static/media/analytics_blog.jpg": "/enggobhub/static/media/analytics_blog.1b3a0e84ebb354e2ca12.jpg",
+    "static/media/apple.png": "/enggobhub/static/media/apple.b123eda7e8048bc84ebc.png",
+    "static/media/slider1.jpg": "/enggobhub/static/media/slider1.7c290428f60415c42f95.jpg",
+    "static/media/contactus.webp": "/enggobhub/static/media/contactus.b737d8afd18cbf4c1fce.webp",
+    "static/media/corporate_blog.jpg": "/enggobhub/static/media/corporate_blog.a958d2c010d5407ae39e.jpg",
+    "static/media/slick.svg": "/enggobhub/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/enggobhub/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/enggobhub/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/enggobhub/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/enggobhub/index.html",
+    "main.7fa872db.css.map": "/enggobhub/static/css/main.7fa872db.css.map",
+    "main.191d1a82.js.map": "/enggobhub/static/js/main.191d1a82.js.map",
+    "453.ac90d953.chunk.js.map": "/enggobhub/static/js/453.ac90d953.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7fa872db.css",
+    "static/js/main.191d1a82.js"
+  ]
+}

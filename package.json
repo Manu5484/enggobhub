@@ -2,6 +2,7 @@
   "name": "enggobhub",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Manu5484.github.io/enggobhub",
   "dependencies": {
     "@tabler/icons-react": "^3.31.0",
     "@testing-library/dom": "^10.4.0",
@@ -23,7 +24,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -42,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
